@@ -35,10 +35,10 @@
         </tr>
         </thead>
         <tbody>
-        <c:forEach items="${contacts}" var="contact">
+        <c:forEach items="${contacts}" var="contact" varStatus="loop">
             <tr>
                 <td>
-                    <c:out value="${contact.id}"/>
+                    <c:out value="${loop.index + 1}"/>
                 </td>
                 <td>
                     <c:out value="${contact.lastName}"/>
