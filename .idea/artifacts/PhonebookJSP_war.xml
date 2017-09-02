@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PhonebookJSP:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="PhonebookJSP.war">
+      <element id="artifact" artifact-name="PhonebookJSP:war exploded" />
+    </root>
+  </artifact>
+</component>
